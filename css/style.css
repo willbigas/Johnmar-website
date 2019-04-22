@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html,
 body {
     margin: 0;
@@ -151,6 +145,10 @@ nav {
 }
 #logo a span.fa {
     color: #ff4f81;
+}
+#imagemlogo {
+    max-width: 350px;
+    max-height: 60px;
 }
 
 
@@ -1780,7 +1778,7 @@ a.move-top {
 		line-height: 45px;
 	}
 	#logo a {
-		font-size: .6em;
+        font-size: .6em;
 	}
 	.agileits-team-grid {
 		width: 62%;
