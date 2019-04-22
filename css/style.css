@@ -75,13 +75,13 @@ header {
 }
 header a.btn {
     border-radius: 4px;
-    color: #4d6171;
+    color: white;
     letter-spacing: 1px;
     border: none;
     outline: none;
 }
 header a.btn span.fa {
-    color: #ff4f81;
+    color:orange;
 }
 .search-form {
     width: 30%;
@@ -188,6 +188,10 @@ nav a {
     font-size: 15px;
 }
 
+#home {
+    background-color: #3C3A3F;
+}
+
 
 nav ul li ul li:hover { background: #f8f9fa; }
 
@@ -195,8 +199,16 @@ nav ul li ul li:hover { background: #f8f9fa; }
 nav a:hover { 
 	color: #4d6171;
 }
+.menu li a{
+    color: white;
+    font-weight: bold;
+}
 .menu li.active  a{ 
-    color: #ff4f81;
+    color: black;
+}
+
+.menu {
+    background: orange;
 }
 
 /* Hide Dropdowns by Default
@@ -853,16 +865,16 @@ h6.intr.ser1 {
 h4.w3f_title {
     font-size: 20px;
     letter-spacing: 2px;
-    color: #292e31;
+    color: orange;
 }
 ul.list-agileits li a,.footer p.head {
-    color: #4d6171;
+    color: white;
     font-size: 16px;
     letter-spacing: .5px;
     text-transform: capitalize;
 }
 ul.list-agileits li a:hover {
-    color: #333;
+    color: white;
 }
 .subscribe-form .subscribe {
     outline: none;
@@ -894,7 +906,7 @@ ul.list-agileits li a:hover {
     text-align: left;
 }
 .footer-style-w3ls p,.footer-style-w3ls p a{
-    color: #4d6171;
+    color: white;
     font-size: 16px;
     letter-spacing: .5px;
 }
@@ -914,7 +926,7 @@ ul.list-agileits li a:hover {
     display: initial;
     margin: 0;
     letter-spacing: 1px;
-    color: #3369e7;
+    color: orange;
     font-weight: 600;
     padding: 3px 0;
     border: none;
@@ -922,6 +934,12 @@ ul.list-agileits li a:hover {
 .footer-title h2 a span.fa {
     color: #ff4f81;
 }
+
+#background-footer {
+    background: #3C3A3F;
+}
+
+
 /*-- //footer --*/
 
 /*-- specialization --*/
