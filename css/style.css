@@ -732,7 +732,7 @@ h6.b-w3ltxt {
 
 /* -- tabs --*/
 section#tabs {
-    background: #3369e7;
+    background: #FF8C00;
 }
 .middile-inner-con h5 {
     line-height: 40px;
@@ -742,6 +742,7 @@ section#tabs {
 }
 .middile-inner-con p {
     color: #eee;
+    font-size: 16px;
 }
 .middile-sec img {
     background: #fff;
@@ -784,10 +785,14 @@ section#tabs {
     cursor: pointer;
 }
 
+.tab-main label {
+    font-weight: bold;
+}
+
 .tab-main input:checked + label {
     color: #fff;
     border: 1px solid #fff;
-    border-bottom: 2px solid #3369e7;
+    border-bottom: 2px solid orange;
 }
 
 .tab-main #tab1:checked ~ #content1,
@@ -953,7 +958,7 @@ ul.list-agileits li a:hover {
     font-weight: 900;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    background: url(../images/3.jpg) repeat center;
+    background: orange repeat center;
     background: -o-linear-gradient(transparent, transparent);
     -webkit-background-clip: text;
 }
