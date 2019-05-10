@@ -1060,7 +1060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #18d26e;
+  color: orange;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -1204,6 +1204,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .zoom:hover {
   transform: scale(1.2); 
+}
+
+
+.mini-zoom {
+  transition: transform .5s; /* Animation */
+}
+
+.mini-zoom:hover {
+  transform: scale(1.05); 
+ 
+}
+
+.borda-orange:hover {
+  border: 2px solid;
+  border-color:orange;
 }
 
 #team .member .member-info {
