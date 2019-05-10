@@ -63,6 +63,10 @@ h6 {
   color: #fff;
 }
 
+#botao-voltar:hover {
+  background-color: #757575;
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -297,7 +301,7 @@ h6 {
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #18d26e;
+  color: #757575;
 }
 
 /*--------------------------------------------------------------
@@ -795,7 +799,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(#ffb74d, #ff9800), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -826,8 +830,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #757575;
+  border: 2px solid #757575;
 }
 
 /* Call To Action Section
