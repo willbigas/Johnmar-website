@@ -158,8 +158,8 @@ h6 {
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  padding: 0 0 0 38px;
+  margin: -5px;
 }
 
 
@@ -421,7 +421,7 @@ h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
+/* Mobile Nav Toggle - Celular */
 
 #mobile-nav-toggle {
   position: fixed;
@@ -483,7 +483,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #18d26e;
+  color: orange;
 }
 
 #mobile-nav ul li li {
@@ -491,7 +491,7 @@ h6 {
 }
 
 #mobile-nav ul li.menu-active a {
-  color: #18d26e;
+  color: orange;
 }
 
 #mobile-nav ul .menu-has-children i {
@@ -711,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col:hover i {
-  color: #18d26e;
+  color: #666666;
 }
 
 #about .about-col h2 {
@@ -728,7 +728,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 a:hover {
-  color: #18d26e;
+  color: #666666;
 }
 
 #about .about-col p {
@@ -1371,7 +1371,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #999;
 }
 
 /*--------------------------------------------------------------
@@ -1551,6 +1551,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -1602,4 +1604,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+
+  #video-johnmar {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    width: 280px;
+    height: 200px;
+  }
+
+  
 }
