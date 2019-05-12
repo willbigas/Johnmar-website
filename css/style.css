@@ -795,7 +795,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-/* Call To Action Section
+/* Call To Action Section - Atendimento em toda santa catarina
 --------------------------------*/
 
 #call-to-action {
@@ -834,6 +834,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #757575;
 }
 
+#call-to-action figcaption {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#call-to-action figure img {
+  border-width: 5px !important;
+}
+
+.descricao {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+
+
 /* Call To Action Section
 --------------------------------*/
 
@@ -865,6 +881,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: left;
   transition: .9s;
 }
+
 
 /* Numeros Section
 --------------------------------*/
