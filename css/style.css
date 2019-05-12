@@ -131,6 +131,8 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  opacity: 0.7;
+  background: #3C3A3F;
 }
 
 #header.header-scrolled {
@@ -138,6 +140,7 @@ h6 {
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
+  opacity: 1.0;
 }
 
 #header #logo {
@@ -158,7 +161,7 @@ h6 {
 #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid orange;
 }
 
 #header #logo img {
@@ -508,7 +511,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #18d26e;
+  color: orange;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -516,7 +519,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #18d26e;
+  color: orange;
 }
 
 #mobile-body-overly {
@@ -651,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/about-bg.png") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
