@@ -67,6 +67,18 @@ h6 {
   background-color: #757575;
 }
 
+#badge-customizado {
+  position: absolute;
+  margin: 0;
+  padding: 1.5px;
+  right: 1px;
+  top: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-transform: none;
+  border-radius: 2px !important;
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -779,7 +791,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .icon i {
   color: orange;
-  font-size: 36px;
+  font-size: 45px;
   line-height: 1;
   transition: 0.5s;
 }
@@ -1582,6 +1594,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
