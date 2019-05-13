@@ -326,6 +326,7 @@ h6 {
   top: 100%;
   left: 0;
   z-index: 99;
+  border-radius: 5px;
 }
 
 .nav-menu li {
@@ -508,6 +509,13 @@ h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
+}
+
+#mobile-nav ul .menu-has-children .submenu-icone {
+  position: relative;
+  float:  left;
+  margin: 2px 4px 0px 0px;
+  padding: 0px;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
