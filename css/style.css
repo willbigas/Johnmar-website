@@ -1088,11 +1088,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  margin-top: -7px;
-  font-size: 16px;
+  margin-top: 12px;
+  font-size: 20px;
   line-height: 1px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   padding-bottom: 0;
 }
 
