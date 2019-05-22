@@ -136,7 +136,7 @@ h6 {
 
 #header {
   padding: 30px 0;
-  height: 92px;
+  height: 85px;
   position: fixed;
   left: 0;
   top: 0;
@@ -1641,7 +1641,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -1673,6 +1673,51 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 280px;
     height: 200px;
   }
-
-  
 }
+
+@media (max-width: 1150px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #header #logo h1 {
+    font-size: 28px;
+  }
+
+  #header #logo img {
+    max-height: 40px;
+  }
+
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+
+  #video-johnmar {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 300px;
+    height: 225px;
+  }
+
+  #mobile-nav ul li a {
+    font-size: 18px;
+    padding: 10px 22px 10px 15px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    outline: none;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
