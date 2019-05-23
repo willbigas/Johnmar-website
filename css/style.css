@@ -364,6 +364,10 @@ h6 {
   min-width: 180px;
 }
 
+.icone-navbar {
+  font-size: 16px;
+}
+
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
