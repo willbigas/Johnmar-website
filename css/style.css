@@ -699,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 55px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
 }
 
@@ -972,9 +972,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 15px 15px 15px 0;
   display: inline-block;
   padding: 10px 20px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 20px;
   color: #666666;
+  border: 0.5px solid #666666;
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -993,7 +996,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-wrap {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 25px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
@@ -1003,14 +1006,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 300px;
   overflow: hidden;
 }
 
 #portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
-  height: 240px;
+  height: 170px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
@@ -1673,6 +1676,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 280px;
     height: 200px;
   }
+  #portfolio .portfolio-item figure {
+    height: 225px;
+  }
+
+  #portfolio .portfolio-item {
+    position: relative;
+    height: 325px;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -1718,6 +1730,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     outline: none;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
+  }
+
+  #portfolio .portfolio-item figure {
+    height: 150px;
+  }
+
+  #portfolio .portfolio-item {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
   }
 }
 
