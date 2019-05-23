@@ -1603,6 +1603,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+#footer button {
+  position: absolute;
+  right: 45px;
+  top:  110px;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
