@@ -1339,6 +1339,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+
+#trbalheConoscoImg{
+  width: 700px;
+  height:500px;
+  }
+  #descricaoTC{
+    font-size: 18px;
+    font-style: none;
+  }
+  
+#enviaCurriculo{
+font-size: 26px;
+font-weight: bold;;
+}
 /* Contact Section
 --------------------------------*/
 
