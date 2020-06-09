@@ -1,5 +1,8 @@
+
 -jQuery(document).ready(function ($) {
   "use strict";
+
+  $(document.body).append('form.contactForm');
 
   //Contact
   $('form.contactForm').submit(function () {
@@ -109,7 +112,7 @@
           $('.alert').alert()
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          // $('#errormessage').html(msg);
+          $('#errormessage').html(msg);
         }
 
       }

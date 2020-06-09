@@ -4,13 +4,13 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'arlete@johnmar.com.br';
+$from = 'johnmar@johnmar.com.br';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'arlete@johnmar.com.br';
+$sendTo = 'ti@johnmar.com.br';
 
 // subject of the email
-$subject = 'Nova mensagem do Formulario de contato do site';
+$subject = 'Nova mensagem do Formulário de contato do site';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
@@ -34,7 +34,7 @@ try
 
     if(count($_POST) == 0) throw new \Exception('Form is empty');
             
-    $emailText = "Você tem uma nova mensagem do formulario de contato do site\n=============================\n";
+    $emailText = "Você tem uma nova mensagem do formulário de contato do site\n=============================\n";
 
     foreach ($_POST as $key => $value) {
         // If the field exists in the $fields array, include it in the email 
