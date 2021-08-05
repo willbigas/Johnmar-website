@@ -7,7 +7,7 @@
 $from = 'johnmar@johnmar.com.br';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'ti@johnmar.com.br';
+$sendTo = 'johnmar@johnmar.com.br';
 
 // subject of the email
 $subject = 'Nova mensagem do Formulário de contato do site';
